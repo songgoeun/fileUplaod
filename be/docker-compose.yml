@@ -6,7 +6,7 @@ services:
     volumes:
       - ./uploads:/usr/src/app/uploads # 파일 업로드를 위한 볼륨
     ports:
-      - "5000:5000"
+      - "5001:5000"
 
   nginx:
     image: nginx
